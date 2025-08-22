@@ -1,5 +1,4 @@
-
-export default function AboutUs() {
+export default function About() {
   return (
     <div className="min-h-screen bg-[#f5e9e6] text-black px-10 py-12">
       {/* Top Navbar */}

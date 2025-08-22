@@ -1,12 +1,6 @@
-import NavBar from "@/components/NavBar";       
-import AboutUs from "@/components/AboutUs";
+import NavBar from "@/components/NavBar";
+import About from "@/components/About";
 
-export default function aboutus() {
-  return (
-    <>
-  <NavBar/>
-  <AboutUs />;
-      </>
-
-);
+export default function Page() {
+  return <About />;
 }
